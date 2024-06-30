@@ -1,0 +1,41 @@
+.video__wrapper {
+  position: relative;
+  width: 100%;
+  margin: auto;
+
+  .--thumbnail {
+    width: 100%;
+    display: block;
+  }
+
+  .--play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: $c-white;
+    color: $c-second;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+  }
+
+  .--overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

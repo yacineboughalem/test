@@ -1,0 +1,16 @@
+{
+  "name": "VOID TEST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:sass": "sass scss/index.scss assets/css/style.css",
+    "watch:sass": "sass --watch scss/index.scss:assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}

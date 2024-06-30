@@ -1,0 +1,111 @@
+.footer__area {
+  &--top {
+    background-color: $c-main;
+    padding: 24px 32px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (width <= 991px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      height: auto;
+      gap: 24px;
+      padding: 24px 16px;
+    }
+
+    .--logo {
+    }
+
+    .--right {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      @media (width <= 991px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+      }
+
+      .--socials {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        @media (width <= 991px) {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        h4 {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          color: $c-white;
+        }
+        .wrap {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          @media (width <= 991px) {
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+
+          .item {
+            color: $c-white;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            border: 1px solid $c-white;
+
+            i {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+      .toTop {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        span,
+        i {
+          color: $c-white;
+        }
+      }
+    }
+  }
+
+  &--bottom {
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px 48px;
+
+    @media (width <= 991px) {
+      gap: 16px;
+      padding: 24px 16px;
+    }
+
+    .item {
+      color: $c-main;
+      font-size: 14.75px;
+      line-height: 24px;
+
+      @media (width <= 991px) {
+        flex-grow: 1;
+        width: 100%;
+      }
+    }
+  }
+
+  .copyright {
+    padding: 8px 32px 32px;
+  }
+}
