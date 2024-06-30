@@ -1205,7 +1205,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
   background-color: #ffffff;
-  color: #262b44;
+  color: #111423;
   overflow-x: hidden;
   position: relative;
 }
@@ -1383,7 +1383,7 @@ body {
 .header__area .--nav .item a {
   font-size: clamp(12px, 3vw, 14.88px);
   font-weight: 600;
-  color: #083555;
+  color: #0d0c0c;
   display: flex;
   transition: all 0.3s ease;
 }
@@ -1791,8 +1791,8 @@ body {
   width: 100%;
   flex-grow: 1;
   border-radius: 4px;
-  border: 1px solid rgba(122, 0, 230, 0.1);
-  background-color: rgba(122, 0, 230, 0.04);
+  border: 1px solid rgba(139, 146, 159, 0.1);
+  background-color: rgba(245, 245, 245, 0.04);
   height: 44px;
   padding: 16px;
 }
@@ -2174,7 +2174,7 @@ body {
 .form__area .item--group textarea::placeholder {
   font-size: clamp(16px, 3vw, 18px);
   font-weight: 400;
-  color: rgba(38, 43, 68, 0.5);
+  color: rgba(17, 20, 35, 0.5);
 }
 .form__area .item--group input:focus, .form__area .item--group input:focus-visible,
 .form__area .item--group select:focus,
@@ -2356,7 +2356,7 @@ body {
 .checkbox__item label {
   text-align: left;
   font-size: clamp(12px, 3vw, 14px);
-  color: #262b44;
+  color: #111423;
   font-weight: 400;
   padding-left: 8px;
   cursor: pointer;
@@ -2387,7 +2387,7 @@ body {
 .p__main {
   font-size: clamp(14px, 3vw, 16px);
   font-weight: 500;
-  color: #083555;
+  color: #0d0c0c;
   padding-bottom: 8px;
   text-align: justify;
   line-height: clamp(24px, 3vw, 32px);
