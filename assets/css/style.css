@@ -1913,6 +1913,11 @@ body {
   position: relative;
   padding: 80px 0;
 }
+@media (width <= 800px) {
+  .block__area {
+    padding: 40px 0;
+  }
+}
 .block__area .grid--40-1 {
   grid-template-columns: 40% 1fr;
   display: grid;
@@ -1984,6 +1989,11 @@ body {
   width: 100%;
   gap: 24px;
   z-index: 1;
+}
+@media (width <= 800px) {
+  .block__area--content {
+    order: 2;
+  }
 }
 .block__area--content .--title {
   font-size: clamp(20px, 3vw, 33.47px);

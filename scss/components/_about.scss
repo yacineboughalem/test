@@ -3,6 +3,10 @@
   position: relative;
   padding: 80px 0;
 
+  @media (width <= 800px) {
+    padding: 40px 0;
+  }
+
   .grid--40-1 {
     grid-template-columns: 40% 1fr;
     display: grid;
@@ -70,6 +74,10 @@
     width: 100%;
     gap: 24px;
     z-index: 1;
+
+    @media (width <= 800px) {
+      order: 2;
+    }
 
     .--title {
       font-size: clamp(20px, 3vw, 33.47px);
