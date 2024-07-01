@@ -12,13 +12,20 @@
   height: 100%;
 
   @media (width <= 1024px) {
+    margin-bottom: 20rem;
+  }
+
+  @media (width <= 480px) {
     min-height: 300px;
     margin-bottom: 20rem;
   }
 
-  @media (width <= 500px) {
-    min-height: 300px;
-    margin-bottom: 22rem;
+  @media (width <= 420px) {
+    margin-bottom: 24rem;
+  }
+
+  @media (width <= 340px) {
+    margin-bottom: 26rem;
   }
 
   &--caption {
